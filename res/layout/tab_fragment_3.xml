@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/spyx"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="SPY X Family"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="6"
+        android:text="Mengikuti kisah Twilight, seorang mata-mata terampil, yang ditugaskan untuk menyusup ke dalam dunia elit dan mendapatkan informasi rahasia. Untuk melakukannya, dia harus membangun keluarga palsu. Twilight memutuskan untuk menikahi seorang psikis bernama Yor, yang memiliki kemampuan membaca pikiran, dan mereka mengadopsi seorang gadis kecil bernama Anya yang memiliki kekuatan telepati. Mereka berusaha menjalani kehidupan keluarga sambil menjalankan misi-misi rahasia, menghadapi berbagai komedi dan tantangan yang menghibur."
+        />
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/clannad"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Clannad"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Mengisahkan perjalanan Tomoya Okazaki, seorang siswa SMA yang merasa kehilangan arah hidupnya. Saat bertemu dengan Nagisa Furukawa, seorang gadis yang juga mengalami kesulitan, keduanya mulai membentuk ikatan yang kuat. Bersama-sama, mereka menghadapi masalah pribadi dan mengatasi kesulitan hidup sambil menjalin hubungan dengan teman-teman mereka."
+        />
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/inapril"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Shigatsu Wa Kimi no Uso"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="Mengisahkan tentang seorang pianis muda yang kehilangan kemampuan mendengar suara piano setelah mengalami trauma masa kecil. Ketika dia bertemu dengan seorang pemain biola yang energik, kehidupannya berubah. Bersama-sama, mereka mengejar impian musik mereka sambil mengatasi masalah pribadi dan rahasia masa lalu. Cerita ini menggambarkan perjalanan mereka dalam musik, persahabatan, dan cinta."
+        />
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+
+    <ImageView
+        android:id="@+id/theworst"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/smartphone"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/theworst"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Isekai Wa Smartphone"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/theworst"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="6"
+        android:text="Bercerita tentang pemuda bernama Touya Mochizuki yang sudah mati. Namun, suatu hari secara tidak sengaja dirinya tewas, kemudian dirinya dikirim ke alam lain untuk menjalani satu kehidupan barunya seolah seperti bereinkarnasi. "/>
+    <ImageView
+        android:id="@+id/thek2"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/overlord"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/theworst"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Overlord"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/theworst"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Menceritakan tentang seorang pemain game online yang terperangkap di dalam dunia game populer yang akan ditutup. Dalam tubuh karakternya yang kuat, ia memutuskan untuk menjelajahi dunia ini yang penuh dengan makhluk fantastis, sambil mencari petunjuk tentang keadaan misterius yang mengikatnya di sana. "/>
+    <ImageView
+        android:id="@+id/duty"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/slime"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/theworst"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Tensei Shitara Slime Datta Ken"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/theworst"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="Menceritakan tentang seorang pria yang terlempar ke dunia fantasi setelah tewas dalam kejadian tragis. Di dunia baru ini, dia bereinkarnasi sebagai slime ajaib dengan kemampuan unik. Dengan kekuatannya yang baru, dia mulai membangun hubungan dengan berbagai makhluk di dunia tersebut untuk menciptakan masyarakat yang damai dan inklusif."
+        />
+
+
+</RelativeLayout>

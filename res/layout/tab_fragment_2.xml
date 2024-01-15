@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/bleach"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Bleach"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="6"
+        android:text="Mengisahkan tentang seorang remaja bernama Ichigo Kurosaki yang secara tidak sengaja mendapatkan kekuatan sebagai 'Shinigami' atau 'Pengurai Roh.' Tugasnya adalah melindungi dunia manusia dari roh jahat dan menghantarkan roh yang sudah mati ke alam baka. Seiring perjalanan, Ichigo terlibat dalam konflik besar dengan roh jahat yang disebut 'Hollow' dan berusaha melindungi teman-temannya serta dunia manusia dari ancaman supernatural."
+        />
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/onepiece"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="One Piece"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Mengikuti petualangan Monkey D. Luffy, seorang pemuda yang mendapatkan kekuatan buah iblis yang membuat tubuhnya elastis seperti karet setelah tanpa sengaja memakan buah Gomu Gomu. Bersama kru bajak lautnya, ia berlayar melintasi Grand Line untuk mencari harta legendaris, One Piece, dan menjadi Raja Bajak Laut. Petualangan mereka penuh dengan pertempuran epik, pertemanan, dan misteri."
+        />
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/naruto"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Naruto"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="Mengikuti kisah seorang ninja muda bernama Naruto Uzumaki yang bermimpi menjadi Hokage, pemimpin desa ninja terkuat. Naruto memiliki monster rubah sembilan ekor yang disegel dalam dirinya, membuatnya diabaikan oleh banyak orang di desanya. Namun, dengan tekad dan keberanian, Naruto berusaha untuk diakui oleh orang lain sambil menghadapi berbagai tantangan, termasuk ancaman dari kelompok ninja jahat."
+        />
+</RelativeLayout>
